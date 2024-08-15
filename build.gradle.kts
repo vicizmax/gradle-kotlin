@@ -2,8 +2,11 @@ import org.gradle.internal.hash.HashUtil
 
 plugins {
     base
-    // Add Sonarqube plugin
-  id("org.sonarqube") version "5.0.0.4638"
+    id("org.sonarqube") version "3.4.0.2513"
+}
+
+repositories {
+    mavenCentral()
 }
 
 tasks {
